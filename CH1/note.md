@@ -51,4 +51,6 @@ java.util.Random randomGenerator = new java.util.Random(); 其中java.util.Rando
       int rand3 = randomGenerator.nextInt(threeLength);
       // now build a phrase
       String phrase = wordListOne[rand1] + " " + wordListTwo[rand2] + " " + wordListThree[rand3];
+
+(int)(Math.random() * 5)
 ~~~

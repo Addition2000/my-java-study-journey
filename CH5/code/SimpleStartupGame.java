@@ -4,7 +4,7 @@ public class SimpleStartupGame {
   public static void main(String[] args) {
     int numOfGuesses = 0;
     GameHelper helper = new GameHelper();
-
+1
     SimpleStartup theStartup = new SimpleStartup();
     int randomNum = (int) (Math.random() * 5);
 
@@ -38,6 +38,7 @@ class SimpleStartup {
     for (int cell : locationCells) {
       if (guess == cell) {
         result = "hit";
+        //去除locationCells中对应的cell
         numOfHits++;
         break;
       } // end if
